@@ -2,3 +2,17 @@
 //4 -> да
 //-3 -> нет
 //7 -> нет
+
+Console.Clear();
+
+Console.WriteLine("Введите ваше число");
+int Num = int.Parse(Console.ReadLine()!);
+
+if (Num % 2 != 0)
+{
+    Console.WriteLine("Ваше число не чётное");
+}
+if (Num % 2 == 0)
+{
+    Console.WriteLine("Ваше число чётное");
+}
