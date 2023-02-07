@@ -17,5 +17,5 @@ else
     if ((b / 10 == e % 10) && (b % 10 % 10 == e / 10))
         Console.WriteLine("Палиндром");
     else
-        Console.WriteLine("Не палиндром");    
+        Console.WriteLine("Не палиндром");
 }

@@ -11,6 +11,6 @@ int x = int.Parse(Console.ReadLine()!), y = int.Parse(Console.ReadLine()!), z = 
 Console.WriteLine("Введите координаты x1, y1, z1 для точки В (Через Enter):");
 int x1 = int.Parse(Console.ReadLine()!), y1 = int.Parse(Console.ReadLine()!), z1 = int.Parse(Console.ReadLine()!);
 
-double res = Math.Round(Math.Sqrt(Math.Pow(x-x1, 2) + Math.Pow(y-y1, 2) + Math.Pow(z-z1, 2)), 2);
+double res = Math.Round(Math.Sqrt(Math.Pow(x - x1, 2) + Math.Pow(y - y1, 2) + Math.Pow(z - z1, 2)), 2);
 
 Console.WriteLine($"Расстояние между тремя точками: {res}");
